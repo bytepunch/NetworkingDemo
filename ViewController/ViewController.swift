@@ -25,10 +25,25 @@ class ViewController: UIViewController {
     
     @IBAction func didClickOnConnectButton(_ sender: UIButton) {
         
-        
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+
+        let contactsManager = ContactsManager()
+        self.connectButton.setTitle("Connecting...", for: .normal)
+        self.connectButton.isEnabled = false
+        contactsManager.fetchContact { (success) in
+
+            DispatchQueue.main.async {
+                UIApplication.shared.isNetworkActivityIndicatorVisible = false
+                print(success)
+                self.connectButton.setTitle("Finishing connection", for: .normal)
+            }
+
+        }
         
     }
     
-
 }
+
+
+
 

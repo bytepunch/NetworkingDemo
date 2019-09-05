@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNA-L6-u2n">
-                                <rect key="frame" x="100" y="424.5" width="214" height="47"/>
+                                <rect key="frame" x="50" y="424.5" width="314" height="47"/>
                                 <color key="backgroundColor" red="0.035294117649999998" green="0.51764705879999995" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="Connect">
@@ -32,8 +32,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ZNA-L6-u2n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="4Px-ZG-F1K"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZNA-L6-u2n" secondAttribute="trailing" constant="100" id="QG2-my-zut"/>
+                            <constraint firstItem="ZNA-L6-u2n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="4Px-ZG-F1K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZNA-L6-u2n" secondAttribute="trailing" constant="50" id="QG2-my-zut"/>
                             <constraint firstItem="ZNA-L6-u2n" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UTi-GF-x1b"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
